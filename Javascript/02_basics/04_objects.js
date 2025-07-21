@@ -73,3 +73,22 @@ console.log(Object.entries(tinderUser));
 // to find if this property is present or not we use hasownproperty
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+console.log(tinderUser.hasOwnProperty('isLogged'))
+
+
+// destructuring
+
+const course = {
+    coursename: "Js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor} = course
+const {courseInstructor : instructor} = course
+
+console.log(courseInstructor);
+console.log(instructor);
+
