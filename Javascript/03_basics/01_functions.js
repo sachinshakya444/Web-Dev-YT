@@ -105,6 +105,9 @@ function returnSecondValue(getArray){
 }
 
 console.log(returnSecondValue(myNewArray))
+//we can directly pass array just like we did in object
 console.log(returnSecondValue([200,4400,600,800]))
+
+
 
 

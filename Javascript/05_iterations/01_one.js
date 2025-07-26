@@ -25,3 +25,8 @@ for(let i=0;i<myArray.length;i++)
     console.log(element);
 
 }
+
+// if you go outof bound then it will show undefined 
+
+//break and continue also in Js same as c++
+

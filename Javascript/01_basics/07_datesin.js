@@ -37,3 +37,5 @@ console.log(newDate.toLocaleString('default',{
     weekday: "long",
     day: "2-digit"
 }))
+
+

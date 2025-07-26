@@ -40,5 +40,9 @@ map.set('Fr','France')
 map.set('Fr','France')
 
 for (const key in map) {
+    //map wont work bcoz its not iterable
     console.log(key);
 }
+
+// objects -> forin
+// Array -> forof

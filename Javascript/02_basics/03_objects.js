@@ -62,6 +62,8 @@ console.log(JsUser.greetingTwo());
 
 
 
+//NOTE:whenever you access values then u use dot but sometimes you need sqr brackets 
+//it ask in interview
 
 
 

@@ -87,8 +87,46 @@ const course = {
 // course.courseInstructor
 
 const {courseInstructor} = course
-const {courseInstructor : instructor} = course
+const {courseInstructor : instructor} = course //here benefit is we only need to write instructor not whole name 
+// just like naamkaran so this is destructuring
 
 console.log(courseInstructor);
 console.log(instructor);
+
+//here there is a part of react  
+const navbar = (company) => {
+
+}
+
+navbar(company = "sachin")
+//so we can identify in react there is destructuring
+
+//API - values come from backend 
+//in past these values comes in xml form which were very complex
+//now these values come in json form
+
+// what is json
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+
+
+
+
+// [
+//     {},
+//     {},
+//     {},
+
+// ]
+
+
+// it is not necessary that data will always come in object it may be come in 
+// array of objects also
+
+// JSON - javasscript object notation it works in entire industry
 

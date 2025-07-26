@@ -40,6 +40,7 @@ let score1 = 100;
 let score2 = 200;
 let score3 = 300;
 
-// arrayof returns a new array from set of elements
+// arrayof returns a new array from set of elements 
+//we use Arrayof when we want to make array of diffrent variables
 console.log(Array.of(score1,score2,score3))
 

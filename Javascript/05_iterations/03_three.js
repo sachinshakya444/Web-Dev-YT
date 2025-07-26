@@ -51,10 +51,11 @@ const myObject = {
     game4: 'Asphalt'
 }
 
-for (const [key,value] of myObject) {
-    console.log(key,'->',value);
-}
+// for (const [key,value] of myObject) {
+//     console.log(key,'->',value);
+// }
 
+// here we see it wont work using this let see next in next file
 
 
 

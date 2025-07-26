@@ -50,7 +50,27 @@ function addone(num){
     return num + 1
 }
 
-console.log(addone(5))
+(addone(5))
+
+
+// here we can declare fucntion on two ways both are same but there is some differnece let see
+
+
+addone(4) //here it wont give error if we declare it first from function
+
+function addone(num){
+    return num + 1;
+}
+
+
+
+// addTwo(44) //here it will give error if we declare it before funtion
+addTwoNumbers(5)
+const addTwo = function(num){
+    return num + 2;
+}
+//  this declaration of function is also called expression
+//it is called hoisting
 
 
 
