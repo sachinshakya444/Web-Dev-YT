@@ -18,13 +18,15 @@
 
     const start = document.querySelector('#start').addEventListener('click',function(){
 
-        setInterval(sayDate,1000,"start")
-        
-    })
+            setInterval(sayDate,1000,"start")
+            
+        })
+    
+    
 
 
-    const stop = document.querySelector("#stop").addEventListener('click',function(){
-        clearInterval(start);
+    document.querySelector("#stop").addEventListener('click',function(){
+        clearInterval();
     })
 
 </script>
