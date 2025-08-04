@@ -1,0 +1,136 @@
+body{
+    background-color: antiquewhite;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: cursive;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+.brand img{
+    width: 55px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+nav ul li{
+    padding: 0 12px;
+
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px; 
+}
+
+.icons i{
+    cursor: pointer;
+    width: 25px;
+}
+
+#myProgressBar{
+
+    width: 80vw;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+
+.container{
+    min-height: 60vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 20px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: cover; /* or contain, auto, 100% 100% */
+    /* background-position: center;  */
+ 
+}
+
+.container h1{
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+#myProgressBar{
+    width: 80vh;
+    cursor: pointer;
+}
+
+.songItem{
+    
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timeStamps{
+    margin: 0 23px;
+}
+
+.timeStamps i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
